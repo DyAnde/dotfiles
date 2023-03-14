@@ -18,13 +18,13 @@ what-do () {
 }
 
 if [[ $# -ne 1 ]] ; then
-	what-do()
+	what-do
 fi
 
 if [[ $1 != "link" && $1 != "unlink" ]] ; then
 	echo "Invalid subcommand $1."
 	echo "You baffoon."
-	what-do()
+	what-do
 fi
 
 $1
