@@ -5,3 +5,5 @@ set noexpandtab
 set tabstop=4
 set shiftwidth=4
 colorscheme desert
+set cursorline
+set number
